@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-st.little('Guess the number game')
+st.tittle('Guess the number game')
 
 #generate a rondom number between 1 and 100
 number = random.randint(1,100)

@@ -11,7 +11,7 @@ guess = st.number_input("Enter a number(1 and 100):", min_value=1,max_value=100)
 if st.button('make a guess!'):
     if guess > number:
         st.write('Too high! try a smaller number.')
-    elief guess < number:
+    elif guess < number:
         st.write('Too low! try a lager number.')
     else:
         st.write('congraturations! you have guessed the number correctly.')               

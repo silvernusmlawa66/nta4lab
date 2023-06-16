@@ -6,7 +6,7 @@ st.little('Guess the number game')
 #generate a rondom number between 1 and 100
 number = random.randint(1,100)
 
-guss = st.number_input("enter a number(1 and 100):,min-value=1,max_value=100)
+guess = st.number_input("enter a number(1 and 100):,min-value=1,max_value=100)
                        
 if st.button('make a guess!'):
     if guess > number:
